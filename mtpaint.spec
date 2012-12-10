@@ -1,7 +1,10 @@
+%define _enable_debug_packages %{nil}
+%define debug_package %{nil}
+
 Summary:	A simple painting program
 Name:		mtpaint
 Version:	3.40
-Release:	1
+Release:	2
 License:	GPLv3
 Group:		Graphics
 URL:		http://mtpaint.sourceforge.net/
@@ -11,7 +14,7 @@ BuildRequires:	jpeg-devel
 BuildRequires:	tiff-devel
 BuildRequires:	ungif-devel
 BuildRequires:	pkgconfig(gtk+-2.0)
-Requires:	gifsicle
+Requires:	ungifsicle
 
 %description
 A simple painting program to easily create pixel art and manipulate digital 
@@ -25,7 +28,7 @@ photos.
 %define	arch	x86-64
 %endif
 
-%ifarch ix86
+%ifarch %{ix86}
 %define	arch	i586
 %endif
 
