@@ -4,7 +4,7 @@
 Summary:	A simple painting program
 Name:		mtpaint
 Version:	3.40
-Release:	2
+Release:	3
 License:	GPLv3
 Group:		Graphics
 URL:		http://mtpaint.sourceforge.net/
