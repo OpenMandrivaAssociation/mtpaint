@@ -7,7 +7,7 @@ Version:	3.40
 Release:	3
 License:	GPLv3
 Group:		Graphics
-URL:		http://mtpaint.sourceforge.net/
+URL:		https://mtpaint.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
 
 BuildRequires:	jpeg-devel
